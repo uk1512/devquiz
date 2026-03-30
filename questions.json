@@ -6,7 +6,7 @@
   "answer": 0
 },
 {
-  "category": "html",
+  "category": "css",
   "question": "Which tag is used for hyperlinks?",
   "options": ["<link>", "<a>", "<href>", "<url>"],
   "answer": 1
