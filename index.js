@@ -33,7 +33,7 @@ function initApp(){
     card.addEventListener("click", ()=>{
         selectedCategory = card.id
 
-        filteredQuestions = questions.filter(q=>q.category === selectedCategory)
+        filteredQuestions = questions.filter(q=>q.category == selectedCategory)
         console.log(filteredQuestions)
 
         currentIndex = 0
