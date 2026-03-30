@@ -58,7 +58,7 @@ function showQuestions() {
 
     q.options.forEach((opt,index)=>{
         const btn = document.createElement("button")
-        btn.innerText = opt
+     
         btn.classList.add("option")
         const letters = ["A","B","C","D"]
         const letterSpan = document.createElement("span")
