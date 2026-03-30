@@ -1,0 +1,242 @@
+[
+{
+  "category": "html",
+  "question": "What does HTML stand for?",
+  "options": ["HyperText Markup Language", "HyperText Machine Language", "HyperTool Markup Language", "HomeTool Markup Language"],
+  "answer": 0
+},
+{
+  "category": "html",
+  "question": "Which tag is used for hyperlinks?",
+  "options": ["<link>", "<a>", "<href>", "<url>"],
+  "answer": 1
+},
+{
+  "category": "html",
+  "question": "Which tag is used for images?",
+  "options": ["<image>", "<img>", "<pic>", "<src>"],
+  "answer": 1
+},
+{
+  "category": "html",
+  "question": "Which tag creates a line break?",
+  "options": ["<break>", "<br>", "<lb>", "<newline>"],
+  "answer": 1
+},
+{
+  "category": "html",
+  "question": "Which tag is used for headings?",
+  "options": ["<head>", "<h1>", "<title>", "<header>"],
+  "answer": 1
+},
+{
+  "category": "html",
+  "question": "Which attribute specifies image path?",
+  "options": ["href", "src", "link", "path"],
+  "answer": 1
+},
+{
+  "category": "html",
+  "question": "Which tag is used for lists?",
+  "options": ["<list>", "<ul>", "<li>", "<ol>"],
+  "answer": 1
+},
+{
+  "category": "html",
+  "question": "Which tag is used for paragraphs?",
+  "options": ["<para>", "<p>", "<text>", "<pg>"],
+  "answer": 1
+},
+{
+  "category": "html",
+  "question": "Which tag is used for forms?",
+" options": ["<form>", "<input>", "<submit>", "<field>"],
+  "answer": 0
+},
+{
+  "category": "html",
+  "question": "Which tag is used for tables?",
+  "options": ["<table>", "<tab>", "<tr>", "<td>"],
+  "answer": 0
+},
+{
+  "category": "css",
+  "question": "What does CSS stand for?",
+  "options": ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+  "answer": 1
+},
+{
+  "category": "css",
+  "question": "Which property changes text color?",
+  "options": ["font-color", "text-color", "color", "style"],
+  "answer": 2
+},
+{
+  "category": "css",
+  "question": "Which property controls spacing inside element?",
+  "options": ["margin", "padding", "border", "gap"],
+  "answer": 1
+},
+{
+  "category": "css",
+  "question": "Which property changes background?",
+  "options": ["bg", "background-color", "color", "fill"],
+  "answer": 1
+},
+{
+  "category": "css",
+  "question": "Which display is used for flexbox?",
+  "options": ["block", "inline", "flex", "grid"],
+  "answer": 2
+},
+{
+  "category": "css",
+  "question": "Which property rounds corners?",
+  "options": ["border-style", "border-radius", "corner", "radius"],
+  "answer": 1
+},
+{
+  "category": "css",
+  "question": "Which property sets width?",
+  "options": ["size", "width", "length", "w"],
+  "answer": 1
+},
+{
+  "category": "css",
+  "question": "Which property sets font size?",
+  "options": ["font", "size", "font-size", "text-size"],
+  "answer": 2
+},
+{
+  "category": "css",
+  "question": "Which unit is relative?",
+  "options": ["px", "em", "cm", "mm"],
+  "answer": 1
+},
+{
+  "category": "css",
+  "question": "Which layout is 2D?",
+  "options": ["flexbox", "grid", "block", "inline"],
+  "answer": 1
+},
+{
+  "category": "js",
+  "question": "Which keyword declares variable?",
+  "options": ["var", "int", "string", "let"],
+  "answer": 3
+},
+{
+  "category": "js",
+  "question": "Which is used for output?",
+  "options": ["console.log()", "print()", "echo()", "log()"],
+  "answer": 0
+},
+{
+  "category": "js",
+  "question": "Which is array method?",
+  "options": ["push()", "add()", "insert()", "append()"],
+  "answer": 0
+},
+{
+  "category": "js",
+  "question": "Which is used to select element?",
+  "options": ["getElement()", "querySelector()", "select()", "find()"],
+  "answer": 1
+},
+{
+  "category": "js",
+  "question": "Which keyword defines function?",
+  "options": ["func", "function", "def", "fn"],
+  "answer": 1
+},
+{
+  "category": "js",
+  "question": "Which event is click?",
+  "options": ["hover", "click", "press", "touch"],
+  "answer": 1
+},
+{
+  "category": "js",
+  "question": "Which is boolean?",
+  "options": ["true", "1", "yes", "on"],
+  "answer": 0
+},
+{
+  "category": "js",
+  "question": "Which loop is used?",
+  "options": ["for", "loop", "repeat", "iterate"],
+  "answer": 0
+},
+{
+  "category": "js",
+  "question": "Which stores multiple values?",
+  "options": ["array", "object", "string", "number"],
+  "answer": 0
+},
+{
+  "category": "js",
+  "question": "Which function delays execution?",
+  "options": ["setTimeout", "delay()", "wait()", "pause()"],
+  "answer": 0
+},
+{
+  "category": "accessibility",
+  "question": "What does WCAG stand for?",
+  "options": ["Web Content Accessibility Guidelines", "Web Color Accessibility Guide", "Website Content Access Guide", "Web Coding Access Guide"],
+  "answer": 0
+},
+{
+  "category": "accessibility",
+  "question": "Minimum contrast ratio for normal text?",
+  "options": ["3:1", "4.5:1", "2.5:1", "5:1"],
+  "answer": 1
+},
+{
+  "category": "accessibility",
+  "question": "What is alt text?",
+  "options": ["Alternative image description", "Text style", "Hidden text", "Extra label"],
+  "answer": 0
+},
+{
+  "category": "accessibility",
+  "question": "Which improves keyboard navigation?",
+  "options": ["tabindex", "href", "src", "alt"],
+  "answer": 0
+},
+{
+  "category": "accessibility",
+  "question": "Screen readers help?",
+  "options": ["Blind users", "Developers", "Designers", "Gamers"],
+  "answer": 0
+},
+{
+  "category": "accessibility",
+  "question": "ARIA stands for?",
+  "options": ["Accessible Rich Internet Applications", "Advanced Resource Interface App", "Accessible UI App", "None"],
+  "answer": 0
+},
+{
+  "category": "accessibility",
+  "question": "Which tag improves structure?",
+  "options": ["div", "span", "header", "b"],
+  "answer": 2
+},
+{
+  "category": "accessibility",
+  "question": "Focus styles are for?",
+  "options": ["Mouse users", "Keyboard users", "Developers", "Designers"],
+  "answer": 1
+},
+{
+  "category": "accessibility",
+  "question": "Which helps readability?",
+  "options": ["Contrast", "Animation", "Blur", "Shadow"],
+  "answer": 0
+},
+{
+  "category": "accessibility",
+  "question": "Which helps form accessibility?",
+  "options": ["label", "div", "span", "style"],
+  "answer": 0
+}
+]
