@@ -61,8 +61,16 @@ function showQuestions() {
         btn.innerText = opt
         btn.classList.add("option")
         const letters = ["A","B","C","D"]
-        btn.innerHTML = `<span class="option-letter">${letters[index]}</span>
-                         <span class="option-text">${opt}</span>`
+        const letterSpan = document.createElement("span")
+letterSpan.classList.add("option-letter")
+letterSpan.innerText = letters[index]
+
+const textSpan = document.createElement("span")
+textSpan.classList.add("option-text")
+textSpan.innerText = opt   // ✅ THIS FIXES IT
+
+btn.appendChild(letterSpan)
+btn.appendChild(textSpan)
 
         btn.addEventListener("click",()=>{
             answer = index
