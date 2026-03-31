@@ -1,242 +1,442 @@
 [
-{
-  "category": "html",
-  "question": "What does HTML stand for?",
-  "options": ["HyperText Markup Language", "HyperText Machine Language", "HyperTool Markup Language", "HomeTool Markup Language"],
-  "answer": 0
-},
-{
-  "category": "html",
-  "question": "Which tag is used for hyperlinks?",
-  "options": ["<link>", "<a>", "<href>", "<url>"],
-  "answer": 1
-},
-{
-  "category": "html",
-  "question": "Which tag is used for images?",
-  "options": ["<image>", "<img>", "<pic>", "<src>"],
-  "answer": 1
-},
-{
-  "category": "html",
-  "question": "Which tag creates a line break?",
-  "options": ["<break>", "<br>", "<lb>", "<newline>"],
-  "answer": 1
-},
-{
-  "category": "html",
-  "question": "Which tag is used for headings?",
-  "options": ["<head>", "<h1>", "<title>", "<header>"],
-  "answer": 1
-},
-{
-  "category": "html",
-  "question": "Which attribute specifies image path?",
-  "options": ["href", "src", "link", "path"],
-  "answer": 1
-},
-{
-  "category": "html",
-  "question": "Which tag is used for lists?",
-  "options": ["<list>", "<ul>", "<li>", "<ol>"],
-  "answer": 1
-},
-{
-  "category": "html",
-  "question": "Which tag is used for paragraphs?",
-  "options": ["<para>", "<p>", "<text>", "<pg>"],
-  "answer": 1
-},
-{
-  "category": "html",
-  "question": "Which tag is used for forms?",
-  "options": ["<form>", "<input>", "<submit>", "<field>"],
-  "answer": 0
-},
-{
-  "category": "html",
-  "question": "Which tag is used for tables?",
-  "options": ["<table>", "<tab>", "<tr>", "<td>"],
-  "answer": 0
-},
-{
-  "category": "css",
-  "question": "What does CSS stand for?",
-  "options": ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
-  "answer": 1
-},
-{
-  "category": "css",
-  "question": "Which property changes text color?",
-  "options": ["font-color", "text-color", "color", "style"],
-  "answer": 2
-},
-{
-  "category": "css",
-  "question": "Which property controls spacing inside element?",
-  "options": ["margin", "padding", "border", "gap"],
-  "answer": 1
-},
-{
-  "category": "css",
-  "question": "Which property changes background?",
-  "options": ["bg", "background-color", "color", "fill"],
-  "answer": 1
-},
-{
-  "category": "css",
-  "question": "Which display is used for flexbox?",
-  "options": ["block", "inline", "flex", "grid"],
-  "answer": 2
-},
-{
-  "category": "css",
-  "question": "Which property rounds corners?",
-  "options": ["border-style", "border-radius", "corner", "radius"],
-  "answer": 1
-},
-{
-  "category": "css",
-  "question": "Which property sets width?",
-  "options": ["size", "width", "length", "w"],
-  "answer": 1
-},
-{
-  "category": "css",
-  "question": "Which property sets font size?",
-  "options": ["font", "size", "font-size", "text-size"],
-  "answer": 2
-},
-{
-  "category": "css",
-  "question": "Which unit is relative?",
-  "options": ["px", "em", "cm", "mm"],
-  "answer": 1
-},
-{
-  "category": "css",
-  "question": "Which layout is 2D?",
-  "options": ["flexbox", "grid", "block", "inline"],
-  "answer": 1
-},
-{
-  "category": "js",
-  "question": "Which keyword declares variable?",
-  "options": ["var", "int", "string", "let"],
-  "answer": 3
-},
-{
-  "category": "js",
-  "question": "Which is used for output?",
-  "options": ["console.log()", "print()", "echo()", "log()"],
-  "answer": 0
-},
-{
-  "category": "js",
-  "question": "Which is array method?",
-  "options": ["push()", "add()", "insert()", "append()"],
-  "answer": 0
-},
-{
-  "category": "js",
-  "question": "Which is used to select element?",
-  "options": ["getElement()", "querySelector()", "select()", "find()"],
-  "answer": 1
-},
-{
-  "category": "js",
-  "question": "Which keyword defines function?",
-  "options": ["func", "function", "def", "fn"],
-  "answer": 1
-},
-{
-  "category": "js",
-  "question": "Which event is click?",
-  "options": ["hover", "click", "press", "touch"],
-  "answer": 1
-},
-{
-  "category": "js",
-  "question": "Which is boolean?",
-  "options": ["true", "1", "yes", "on"],
-  "answer": 0
-},
-{
-  "category": "js",
-  "question": "Which loop is used?",
-  "options": ["for", "loop", "repeat", "iterate"],
-  "answer": 0
-},
-{
-  "category": "js",
-  "question": "Which stores multiple values?",
-  "options": ["array", "object", "string", "number"],
-  "answer": 0
-},
-{
-  "category": "js",
-  "question": "Which function delays execution?",
-  "options": ["setTimeout", "delay()", "wait()", "pause()"],
-  "answer": 0
-},
-{
-  "category": "accessibility",
-  "question": "What does WCAG stand for?",
-  "options": ["Web Content Accessibility Guidelines", "Web Color Accessibility Guide", "Website Content Access Guide", "Web Coding Access Guide"],
-  "answer": 0
-},
-{
-  "category": "accessibility",
-  "question": "Minimum contrast ratio for normal text?",
-  "options": ["3:1", "4.5:1", "2.5:1", "5:1"],
-  "answer": 1
-},
-{
-  "category": "accessibility",
-  "question": "What is alt text?",
-  "options": ["Alternative image description", "Text style", "Hidden text", "Extra label"],
-  "answer": 0
-},
-{
-  "category": "accessibility",
-  "question": "Which improves keyboard navigation?",
-  "options": ["tabindex", "href", "src", "alt"],
-  "answer": 0
-},
-{
-  "category": "accessibility",
-  "question": "Screen readers help?",
-  "options": ["Blind users", "Developers", "Designers", "Gamers"],
-  "answer": 0
-},
-{
-  "category": "accessibility",
-  "question": "ARIA stands for?",
-  "options": ["Accessible Rich Internet Applications", "Advanced Resource Interface App", "Accessible UI App", "None"],
-  "answer": 0
-},
-{
-  "category": "accessibility",
-  "question": "Which tag improves structure?",
-  "options": ["div", "span", "header", "b"],
-  "answer": 2
-},
-{
-  "category": "accessibility",
-  "question": "Focus styles are for?",
-  "options": ["Mouse users", "Keyboard users", "Developers", "Designers"],
-  "answer": 1
-},
-{
-  "category": "accessibility",
-  "question": "Which helps readability?",
-  "options": ["Contrast", "Animation", "Blur", "Shadow"],
-  "answer": 0
-},
-{
-  "category": "accessibility",
-  "question": "Which helps form accessibility?",
-  "options": ["label", "div", "span", "style"],
-  "answer": 0
-}
+  {
+    "category": "html",
+    "question": "Which HTML5 semantic element is best suited to represent a standalone, independently distributable piece of content, such as a blog post or a news article?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<article>",
+      "<aside>"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "html",
+    "question": "When building an HTML form, which input type should be used to ensure the browser automatically validates that the user's entry is formatted as an electronic mail address?",
+    "options": [
+      "type=\"text\"",
+      "type=\"email\"",
+      "type=\"message\"",
+      "type=\"url\""
+    ],
+    "answer": 1
+  },
+  {
+    "category": "html",
+    "question": "What is the primary purpose of the <head> element in an HTML document?",
+    "options": [
+      "To contain the visible content displayed at the top of the web page.",
+      "To provide a container for navigation links and branding.",
+      "To store metadata, links to stylesheets, and the document title.",
+      "To define the main heading (h1) of the webpage."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "html",
+    "question": "Which attribute must be added to an anchor tag (<a>) to instruct the browser to open the linked document in a new tab or window?",
+    "options": [
+      "href=\"_blank\"",
+      "target=\"_new\"",
+      "rel=\"external\"",
+      "target=\"_blank\""
+    ],
+    "answer": 3
+  },
+  {
+    "category": "html",
+    "question": "In a tabular data structure, which HTML element is specifically designed to define a header cell that describes the content of a row or column?",
+    "options": [
+      "<tr>",
+      "<td>",
+      "<th>",
+      "<thead>"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "html",
+    "question": "Which HTML tag is used to embed an external CSS stylesheet into an HTML document?",
+    "options": [
+      "<style src=\"theme.css\">",
+      "<link rel=\"stylesheet\" href=\"theme.css\">",
+      "<css file=\"theme.css\">",
+      "<script src=\"theme.css\">"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "html",
+    "question": "What is the correct HTML element to use when creating a drop-down list inside a form?",
+    "options": [
+      "<dropdown>",
+      "<list>",
+      "<input type=\"dropdown\">",
+      "<select>"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "html",
+    "question": "Which element is used to group inline-elements in a document, applying styles or scripts to a specific portion of text without creating a new block-level element?",
+    "options": [
+      "<div>",
+      "<span>",
+      "<section>",
+      "<group>"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "html",
+    "question": "When embedding an image, which attribute specifies the path to the image file so the browser knows what to display?",
+    "options": [
+      "href",
+      "src",
+      "link",
+      "alt"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "html",
+    "question": "Which HTML tag creates a thematic break or a horizontal rule, often used to separate different topics or sections within a page?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<line>",
+      "<hr>"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "css",
+    "question": "What happens when you apply the 'box-sizing: border-box' property to an element in CSS?",
+    "options": [
+      "The element's padding and border are included within its specified width and height.",
+      "The element automatically creates a visible border around its content.",
+      "The element ignores padding and margins, collapsing its height to zero.",
+      "The element stretches to fill its parent container regardless of padding."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property determines the stacking order of positioned elements, dictating which element appears in front of or behind another?",
+    "options": [
+      "stack-order",
+      "position-index",
+      "z-index",
+      "layer-level"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "css",
+    "question": "In the standard CSS box model, what is the fundamental difference between 'margin' and 'padding'?",
+    "options": [
+      "Margin creates space inside the element's border, while padding creates space outside it.",
+      "Padding creates space inside the element's border, while margin creates space outside it.",
+      "Margin controls the thickness of the border, while padding controls the background color.",
+      "There is no difference; they are interchangeable terms for element spacing."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "css",
+    "question": "When using Flexbox, which property on the flex container determines whether the flex items are forced into a single line or can flow onto multiple lines?",
+    "options": [
+      "flex-direction",
+      "justify-content",
+      "align-items",
+      "flex-wrap"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "css",
+    "question": "Which CSS combinator is used to select elements that are the direct, immediate children of a specified parent element?",
+    "options": [
+      "A space ( )",
+      "A plus sign (+)",
+      "A greater-than sign (>)",
+      "A tilde (~)"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "css",
+    "question": "What is the default value of the 'position' property for all HTML elements before any specific CSS positioning is applied?",
+    "options": [
+      "relative",
+      "absolute",
+      "fixed",
+      "static"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "css",
+    "question": "Which CSS pseudo-class is triggered when a user points an interactive pointing device, like a mouse cursor, over an element?",
+    "options": [
+      ":active",
+      ":focus",
+      ":visited",
+      ":hover"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "css",
+    "question": "In CSS Grid layout, which property allows you to name specific areas of the grid and place elements into those areas using a visual syntax?",
+    "options": [
+      "grid-template-columns",
+      "grid-auto-flow",
+      "grid-template-areas",
+      "grid-area-map"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "css",
+    "question": "Which CSS rule is used to define styles that only apply when certain conditions are met, such as the width of the user's screen or device viewport?",
+    "options": [
+      "@import",
+      "@media",
+      "@viewport",
+      "@responsive"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "css",
+    "question": "If you want to completely remove an element from the document layout flow so that it takes up zero space, which CSS property and value should you use?",
+    "options": [
+      "visibility: hidden;",
+      "opacity: 0;",
+      "display: none;",
+      "position: absolute;"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "js",
+    "question": "What is the primary difference between variables declared with 'let' and those declared with 'var' in modern JavaScript?",
+    "options": [
+      "'let' variables are hoisted to the top of their scope, while 'var' variables are not.",
+      "'let' creates block-scoped variables, whereas 'var' creates function-scoped variables.",
+      "'let' is used for constant values that cannot change, while 'var' allows reassignment.",
+      "There is no functional difference; 'let' is simply newer syntax for 'var'."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "js",
+    "question": "In JavaScript, what does the strict equality operator (===) compare when evaluating two values?",
+    "options": [
+      "It checks only if the values are identical after attempting type coercion.",
+      "It checks if the variables point to the same memory address.",
+      "It compares both the value and the specific data type without performing type conversion.",
+      "It checks if two objects contain the exact same keys and values."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "js",
+    "question": "Which built-in JavaScript method is used to add one or more elements to the very end of an existing array?",
+    "options": [
+      "Array.prototype.unshift()",
+      "Array.prototype.concat()",
+      "Array.prototype.pop()",
+      "Array.prototype.push()"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "js",
+    "question": "Due to a known, historical flaw in the JavaScript language, what string is returned when you evaluate `typeof null`?",
+    "options": [
+      "\"null\"",
+      "\"undefined\"",
+      "\"object\"",
+      "\"boolean\""
+    ],
+    "answer": 2
+  },
+  {
+    "category": "js",
+    "question": "Which DOM method is specifically designed to locate and return a single element from the document based on its unique ID attribute?",
+    "options": [
+      "document.querySelector()",
+      "document.getElementsByClassName()",
+      "document.getElementById()",
+      "document.getElementsByTagName()"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "js",
+    "question": "What is the standard JavaScript object and method used to convert a JSON-formatted string into a native JavaScript object?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "Object.assign()",
+      "String.toObject()"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "js",
+    "question": "When working with JavaScript Promises, what are the three possible states a Promise can be in?",
+    "options": [
+      "Pending, Fulfilled, Rejected",
+      "Waiting, Running, Completed",
+      "Active, Inactive, Error",
+      "Starting, Resolving, Catching"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "js",
+    "question": "Which built-in JavaScript function is used to execute a specific block of code once after a specified delay in milliseconds?",
+    "options": [
+      "setInterval()",
+      "requestAnimationFrame()",
+      "setTimeout()",
+      "delay()"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "js",
+    "question": "What does the special JavaScript value 'NaN' stand for, and what is its underlying data type?",
+    "options": [
+      "Not-a-Null; type is undefined",
+      "Null-and-None; type is object",
+      "Negative-and-Null; type is string",
+      "Not-a-Number; type is number"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "js",
+    "question": "In ES6, what is the syntactical feature that allows you to unpack values from arrays, or properties from objects, into distinct variables?",
+    "options": [
+      "Spread syntax",
+      "Destructuring assignment",
+      "Rest parameters",
+      "Template literals"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "accessibility",
+    "question": "What is the primary purpose of providing an 'alt' attribute on the HTML <img> element?",
+    "options": [
+      "To display a tooltip when the user hovers over the image with their mouse.",
+      "To improve the image's load time and overall site performance.",
+      "To provide a text alternative for screen readers and in cases where the image fails to load.",
+      "To automatically apply semantic styling to the image container."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "accessibility",
+    "question": "According to the Web Content Accessibility Guidelines (WCAG) AA standard, what is the minimum required color contrast ratio for normal, standard-sized text?",
+    "options": [
+      "3.0:1",
+      "4.5:1",
+      "7.0:1",
+      "2.5:1"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "accessibility",
+    "question": "If you are creating a custom button using a generic <div> element, which ARIA attribute should you add to explicitly inform assistive technologies of its intended function?",
+    "options": [
+      "aria-label=\"button\"",
+      "type=\"button\"",
+      "role=\"button\"",
+      "data-widget=\"button\""
+    ],
+    "answer": 2
+  },
+  {
+    "category": "accessibility",
+    "question": "How can you intentionally remove an interactive element from the sequential keyboard navigation order (the tab sequence) without visually hiding it?",
+    "options": [
+      "Set the attribute tabindex=\"0\"",
+      "Set the attribute tabindex=\"-1\"",
+      "Set the attribute disabled=\"true\"",
+      "Set the CSS property outline: none;"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "accessibility",
+    "question": "What is the proper, semantic way to explicitly associate an HTML <label> with its corresponding form <input> element?",
+    "options": [
+      "Wrap the input inside a div directly next to the label.",
+      "Ensure the 'name' attribute of the input matches the label's text.",
+      "Use the 'for' attribute on the label to match the 'id' of the input.",
+      "Add an aria-labelledby attribute to the label targeting the input."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "accessibility",
+    "question": "Why is it important to use a logical heading structure (h1 followed by h2, h3, etc.) rather than skipping heading levels?",
+    "options": [
+      "It ensures that search engines index the text in the correct visual color.",
+      "It builds a navigable document outline that screen reader users rely on to understand page structure.",
+      "It is required by CSS frameworks to properly apply margin and padding rules.",
+      "It automatically forces the browser to increase the font size proportionally."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "accessibility",
+    "question": "What is the function of a 'skip to main content' link typically found at the very beginning of a webpage's DOM?",
+    "options": [
+      "It allows screen reader and keyboard users to bypass repetitive navigation menus and jump straight to the primary content.",
+      "It forces the browser to load the main textual content before downloading heavy images and scripts.",
+      "It is a hidden link used exclusively by search engine crawlers to determine the most important keywords.",
+      "It automatically scrolls the user to the bottom footer of the page."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "accessibility",
+    "question": "When building an accordion or a collapsible menu, which ARIA state attribute should be dynamically toggled to indicate whether the content panel is currently visible?",
+    "options": [
+      "aria-hidden",
+      "aria-pressed",
+      "aria-selected",
+      "aria-expanded"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "accessibility",
+    "question": "If an icon is used purely for visual decoration and provides no functional or contextual information, how should it be treated for screen readers?",
+    "options": [
+      "It should have an alt attribute describing its colors and shapes.",
+      "It should be given an aria-label=\"decorative graphic\".",
+      "It should be hidden from assistive technologies using aria-hidden=\"true\" or an empty alt=\"\".",
+      "It should be given a tabindex=\"0\" so users know it is there."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "accessibility",
+    "question": "Which HTML element is the most semantically correct and accessible choice for creating a clickable interface component that triggers an action on the page, rather than navigating to a new URL?",
+    "options": [
+      "An anchor tag (<a>) with an href=\"#\"",
+      "A <span> element styled to look clickable",
+      "A <button> element",
+      "A <div> element with an onClick event handler"
+    ],
+    "answer": 2
+  }
 ]

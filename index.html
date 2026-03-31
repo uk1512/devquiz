@@ -23,7 +23,6 @@
         </div>
     </header>
     <div id="home-screen" class="card">
-        <main>
         <div class="page-header">
             <h1>Welcome to the <span>Frontend Quiz!</span></h1>
             <p>Pick a subject to get started.</p>
@@ -66,15 +65,25 @@
                 <p>Accessibility</p>
             </div>
         </div>
-    </main>
     </div>
-    <div id="quiz-screen" class="card" style="display: none;">
-        <h2 id="question"></h2>
-        <div id="options">
+    <div id="quiz-screen" class="card hidden">
+        <div id="question-section">
+            <div class="question-container">
+                <div id="question-number"></div>
+                <h2 id="question"></h2>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+            </div>
         </div>
-        <div id="submit"></div>
+        <div id="ans-section">
+            <div id="options"></div>
+            <div id="submit"></div>
+        </div>
     </div>
-    <div id="result-screen" style="display: none;">
+    <div id="result-screen" class="hidden">
         <h1 id="completion-message">
             Quiz Completed
             <span id="score-message">You scored...</span>
@@ -86,7 +95,7 @@
             </div>
             <span id="score"></span>
     </div>
-    <button class="submit-btn" onclick="home()">Play Again</button>
+    <button class="submit-btn" onclick="home()" id="play-again">Play Again</button>
     </div>
     
     

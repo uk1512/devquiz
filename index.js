@@ -1,12 +1,17 @@
 
 if(localStorage.getItem("theme") === "dark"){
         document.body.classList.add("dark")
-    }
+}
+if(localStorage.getItem("theme") === "light"){
+        document.body.classList.add("light")
+}
+
 
 const toggle = document.getElementById("toggle")
 
 toggle.addEventListener("click", ()=> {
     document.body.classList.toggle("dark")
+    document.body.classList.toggle("light")
 
     const isDark = document.body.classList.contains("dark");
     localStorage.setItem("theme", isDark ? "dark" : "light")
@@ -72,6 +77,17 @@ function initApp(){
 function showQuestions() {
     const q = filteredQuestions[currentIndex]
     answer = null
+    const questionNumberContainer = document.getElementById("question-number")
+    questionNumberContainer.innerHTML = ""
+    const questionNumber = document.createElement("span")
+    questionNumber.innerText = `Question ${currentIndex + 1} of ${filteredQuestions.length}`
+    questionNumberContainer.appendChild(questionNumber)
+
+    const total = filteredQuestions.length
+
+    let progressPercent = ((currentIndex+1)/total)*100
+    document.getElementById("progress-fill").style.width = progressPercent + "%"
+    
 
 
     document.getElementById("question").innerText = `${currentIndex+1 }. ${q.question}`
@@ -143,8 +159,8 @@ function checkAnswer(selected) {
 }
 
 function showResult() {
-    document.getElementById("quiz-screen").style.display = "none"
-    document.getElementById("result-screen").style.display = "block"
+    document.getElementById("quiz-screen").classList.add("hidden")
+    document.getElementById("result-screen").classList.remove("hidden")
     const resultName = document.getElementById("result-category-name")
     const resultIcon = document.getElementById("result-icon")
 
@@ -162,18 +178,26 @@ function showResult() {
     let totalQuestions = document.createElement("span")
     totalQuestions.classList.add("totalQuestions")
     totalQuestions.innerText = `Out of ${filteredQuestions.length}`
-    totalQuestions.style.marginBottom = "50px"
     const result = document.getElementById("result-screen-card")
     result.appendChild(totalQuestions)
+
+    const finalMessage= document.createElement("span")
+    let message = ""
+    if(score >= 8) message = "🔥 Excellent!"
+    else if(score >= 5) message = "👍 Good Job!"
+    else message = "💡 Keep Practising!"
+    finalMessage.innerText = message
+    finalMessage.classList.add("message")
+    result.appendChild(finalMessage)
 }
 
 function showQuizScreen() {
-    document.getElementById("home-screen").style.display = "none"
-    document.getElementById("quiz-screen").style.display = "block"
+    document.getElementById("home-screen").classList.add("hidden")
+    document.getElementById("quiz-screen").classList.remove("hidden")
 }
 function home(){
-    document.getElementById("home-screen").style.display = "block"
-    document.getElementById("quiz-screen").style.display = "none"
-    document.getElementById("result-screen").style.display = "none"
+    document.getElementById("home-screen").classList.remove ("hidden") 
+    document.getElementById("quiz-screen").classList.add("hidden")
+    document.getElementById("result-screen").classList.add("hidden") 
 }
 
