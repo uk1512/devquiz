@@ -7,9 +7,9 @@
 },
 {
   "category": "html",
-  "question": "What does HTML stand for?",
-  "options": ["HyperText Markup Language", "HyperText Machine Language", "HyperTool Markup Language", "HomeTool Markup Language"],
-  "answer": 0
+  "question": "Which tag is used for hyperlinks?",
+  "options": ["<link>", "<a>", "<href>", "<url>"],
+  "answer": 1
 },
 {
   "category": "html",
