@@ -389,6 +389,7 @@ body.dark .totalQuestions{
 .message {
     font-size: 28px;
     margin-top: 30px;
+    color: #facc15;
 }
 
 @media(min-width: 768px){

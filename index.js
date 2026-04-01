@@ -7,6 +7,8 @@ if(localStorage.getItem("theme") === "light"){
 }
 
 
+
+
 const toggle = document.getElementById("toggle")
 
 toggle.addEventListener("click", ()=> {
@@ -155,7 +157,7 @@ function checkAnswer(selected) {
     }else{
         showResult()
     }
-},1200)
+},2000)
 }
 
 function showResult() {
@@ -183,6 +185,13 @@ function showResult() {
 
     const finalMessage= document.createElement("span")
     let message = ""
+    if(score>=8){
+        confetti({
+            particleCount: 120,
+            spread: 70,
+            origin: {y: 0.6}
+        })
+    }
     if(score >= 8) message = "🔥 Excellent!"
     else if(score >= 5) message = "👍 Good Job!"
     else message = "💡 Keep Practising!"
